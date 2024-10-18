@@ -1,0 +1,17 @@
+@startuml
+!theme blueprint
+actor "Usuário" as User
+rectangle "Gerenciador de Tarefas" {
+    usecase "Adicionar Tarefa" as UC1
+    usecase "Marcar como Concluída" as UC2
+    usecase "Remover Tarefa" as UC3
+    usecase "Filtrar Tarefas" as UC4
+    usecase "Persistir Tarefas" as UC5
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+@enduml

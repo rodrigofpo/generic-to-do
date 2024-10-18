@@ -1,0 +1,23 @@
+@startuml
+!theme blueprint
+component App as AppVue {
+  [Estado Global (tarefas)]
+}
+
+component TaskList as TaskListVue {
+  [Renderiza Lista de Tarefas]
+}
+
+component TaskItem as TaskItemVue {
+  [Representa uma Tarefa]
+  [Botões: Concluir e Remover]
+}
+
+component FilterTasks as FilterTasksVue {
+  [Filtra as Tarefas]
+}
+
+AppVue --> TaskListVue : Gerencia o estado global
+TaskListVue --> TaskItemVue : Exibe dados da tarefa
+TaskListVue --> FilterTasksVue : Aplica filtros
+@enduml

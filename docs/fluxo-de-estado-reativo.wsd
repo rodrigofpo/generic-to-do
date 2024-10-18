@@ -1,0 +1,12 @@
+@startuml
+!theme blueprint
+entity "App.vue\n(Estado Global - Tarefas)" as App
+entity "TaskList.vue\n(Renderiza a lista de Tarefas)" as TaskList
+entity "TaskItem.vue\n(Tarefa individual)" as TaskItem
+entity "FilterTasks.vue\n(Filtro de Tarefas)" as FilterTasks
+
+App --> TaskList : Adiciona Tarefa
+TaskList --> App : Marca como Concluída/Remove
+FilterTasks --> TaskList : Aplica Filtro
+TaskList --> TaskItem : Exibe Tarefas
+@enduml
