@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # generic-to-do
 Gerenciador de tarefas genérico para a aplicação das principais funcionalidade do Vue.js.
 =======
@@ -37,4 +37,4 @@ Gerenciador de tarefas genérico para a aplicação das principais funcionalidad
 + ##### Critérios de Aceitação:
     + As tarefas devem ser armazenadas no localStorage.
     + Ao recarregar a página, as tarefas salvas devem ser carregadas automaticamente.
->>>>>>> 6f37faa (Initial commit)
+
