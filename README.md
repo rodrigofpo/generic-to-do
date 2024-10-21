@@ -34,3 +34,15 @@ Gerenciador de tarefas genérico para a aplicação das principais funcionalidad
         + As tarefas devem ser armazenadas no localStorage.
         + Ao recarregar a página, as tarefas salvas devem ser carregadas automaticamente.
 
+
+
+
+## Diagramas
+1. #### Diagrama de Caso de Uso (Use Case)
+![diagrama-de-caso-de-uso](docs/diagrama-de-caso-de-uso.svg)
+
+2. #### Diagrama de Componentes
+![diagrama-de-componentes](docs/diagrama-de-componentes.svg)
+
+3. #### Fluxo de Estado Reativo (Fluxo de Dados)
+![fluxo-de-estado-reativo](docs/fluxo-de-estado-reativo.svg)
